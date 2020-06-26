@@ -490,6 +490,10 @@ PRODUCT_PACKAGES += \
     android.hidl.manager@1.0 \
     android.hidl.manager@1.0-java
 
+PRODUCT_BOOT_JARS += telephony-ext
+
+PRODUCT_SHIPPING_API_LEVEL := 25
+
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
