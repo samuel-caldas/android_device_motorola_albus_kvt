@@ -60,6 +60,9 @@ TARGET_USES_64_BIT_BINDER := true
 TARGET_OTA_ASSERT_DEVICE := albus,albus_retail
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 
+# Build
+BUILD_BROKEN_DUP_RULES := true
+
 # GPS
 TARGET_NO_RPC := true
 USE_DEVICE_SPECIFIC_GPS := true
